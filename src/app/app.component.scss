@@ -1,0 +1,207 @@
+/* **** doctor-style *** */
+.doctor-style {   
+    .card {
+        border: none;
+
+        .card-header {
+            background-color: #34afaa;
+            color: #fff;            
+        }
+
+        .card-body {
+            background: #34afaa29;
+
+            .form-control {
+                border: 1px solid #34afaa;
+            }
+
+            .submit-btn {
+                background-color: #34afaa;
+                color: #fff;
+            }
+
+            label {
+                font-weight: 500;
+                font-size: 14px;
+            }
+
+            
+        }
+    }
+
+}
+
+
+
+/* **** salon_and_beauty-style *** */
+
+
+.salon_and_beauty {
+ 
+    .card {
+        border: none;
+       
+            overflow: hidden;
+
+        .card-header {
+            background-color: #cc28e7;
+            color: #fff;
+            font-size: 20px;
+            text-align: center;
+            border-top-right-radius: 12px;
+            border-top-left-radius: 12px;
+            
+        }
+
+        .card-body {
+            background: rgb(201 201 201 / 16%);
+
+            .form-control {
+                border: 1px solid #ccc;
+                border-radius: 42px;
+            }
+
+            .submit-btn {
+                background-color: #cc28e7;
+                color: #fff;
+                border-radius: 42px;
+                width: 80%;
+                margin: 0 auto;
+
+                &:hover{
+                    background-color: #a415ba;
+                }
+            }
+
+            label {
+                font-weight: 500;
+                font-size: 14px;
+            }
+
+
+            .time-text{
+                font-size: 9px;
+            }
+        }
+    }
+
+}
+
+
+
+
+/* **** Education and Non-Profits-style *** */
+.fitness_and_sports {
+ 
+    .card {
+        border: none;
+       
+            overflow: hidden;
+
+        .card-header {
+            background-color: #f9bd03;
+            color: #000;
+            font-size: 20px;
+            text-align: center;
+            border-top-right-radius: 12px;
+            border-top-left-radius: 12px;
+            
+        }
+
+        .card-body {
+            background: rgb(201 201 201 / 16%);
+
+            .form-control {
+                border: 1px solid #f9bd03;
+                border-radius: 10px;
+                border-bottom-right-radius: 30px;
+                border-top-left-radius: 30px;
+                box-shadow: 0 11px 40px 0 rgb(249 189 3 / 15%);
+            }
+
+            .submit-btn {
+                background-color: #f9bd03;
+                color: #000;
+                border-radius: 42px;
+                width: 80%;
+                margin: 0 auto;
+                font-weight: 600;
+
+                &:hover{
+                    background-color: #fac831;
+                }
+            }
+
+            label {
+                font-weight: 500;
+                font-size: 14px;
+                margin-bottom: 2px;
+            }
+
+
+            .time-text{
+                font-size: 9px;
+            }
+        }
+    }
+
+}
+
+
+/* **** Education and Non-Profits-style *** */
+.education-and-non-Profits {
+ 
+    .card {
+        border: none;
+       
+            overflow: hidden;
+
+        .card-header {
+            background-color: #004b99;
+            color: #fff;
+            font-size: 20px;
+            text-align: center;
+            border-top-right-radius: 12px;
+            border-top-left-radius: 12px;
+            padding: 30px 0px;
+            
+        }
+
+        .card-body {
+            background: linear-gradient(to bottom, #dcedff, #a5d1ff) no-repeat;
+
+            .form-control {
+                border: 1px solid #004b99;
+                border-radius: 10px;
+                background-color: #b1d7ff;
+                height: 40px;
+            }
+            
+
+            .submit-btn {
+                background-color: #004b99;
+                color: rgb(255, 255, 255);
+                border-radius: 42px;
+                width: 80%;
+                margin: 0 auto;
+                font-weight: 600;
+
+                &:hover{
+                    background-color: #003772;
+                }
+            }
+
+            label {
+                font-weight: 500;
+                font-size: 14px;
+                margin-bottom: 2px;
+            }
+
+
+            .time-text{
+                font-size: 9px;
+            }
+        }
+    }
+
+}
